@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.card h1 {
+    font-size: 20px;
+}
+.card hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.card p::before {
+    content: "▶"; /* Nội dung của dấu chấm hoặc bất kỳ nội dung khác bạn muốn */
+    color: rgb(234, 27, 16);
+    margin-right: 5px; /* Khoảng cách giữa dấu chấm và văn bản */
+    display: inline-block;
+}
